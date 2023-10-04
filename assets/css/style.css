@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bgc-color: #1B1A17;
+    --bg-color: #0B0F0F;
+    --text-bg-color: #9F958D;
+    --main-bg-color: #fafafa;
+    --text-bgc-color: #DBA663;
+}
+
+html {    
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bgc-color);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 10%;
+    background: transparent;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: var(--text-bgc-color);
+    font-size: 1.5rem;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.navbar a:hover {
+    color: var(--text-bg-color);
+}
+
+.home {
+    background-color: var(--bgc-color);
+    background-image: url('backgr/bghome.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    box-shadow: inset 0px -25px 39px 20px rgba(27,26,23,1);
+}
+
+
+.about {
+    background-color: var(--bgc-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.projects {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.photography {
+    background-color: var(--bgc-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.drone {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.services {
+    background-color: var(--bgc-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.clients {
+    background-color: var(--bg-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.contact {
+    background-color: var(--bgc-color);
+    height: 100vh;
+    width: 100%;
+}
