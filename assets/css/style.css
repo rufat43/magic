@@ -12,6 +12,7 @@
     --text-bg-color: #9F958D;
     --main-bg-color: #fafafa;
     --text-bgc-color: #DBA663;
+    --font-main: 'Rajdhani', sans-serif;
 }
 
 html {    
@@ -20,6 +21,7 @@ html {
 
 body {
     background-color: var(--bgc-color);
+    font-family: var(--font-main);
 }
 
 header {
@@ -27,9 +29,10 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 10%;
+    padding: 0.5rem 10%;
     background: transparent;
     z-index: 100;
+    background-color: black;
 }
 
 .navbar {
@@ -63,43 +66,109 @@ header {
 
 
 .about {
-    background-color: var(--bgc-color);
+    background-image: url('backgr/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
 
 .projects {
-    background-color: var(--bg-color);
+    background-image: url('backgr/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
 
 .photography {
-    background-color: var(--bgc-color);
+    background-image: url('backgr/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
 
 .drone {
-    background-color: var(--bg-color);
+    background-image: url('backgr/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
 
-.services {
-    background-color: var(--bgc-color);
-    height: 100vh;
-    width: 100%;
-}
 
-.clients {
-    background-color: var(--bg-color);
-    height: 100vh;
-    width: 100%;
-}
+
+
 
 .contact {
-    background-color: var(--bgc-color);
+    background-image: url('backgr/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
+
+/* start services */
+
+.services {
+    background-image: url('backgr/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 120px;
+    
+}
+
+.container-services h1 {
+    color: var(--text-bgc-color);
+    font-size: 30px;
+}
+
+.container-services h3 {
+    color: var(--text-bgc-color);
+    font-size: 24px;
+    padding-bottom: 3px;
+}
+
+.container-services p {
+    color: var(--text-bgc-color);
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+
+/* end services */
+/* start clients */
+
+.clients {
+    background-image: url('backgr/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-clients{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 160px;
+    gap: 3rem;
+}
+
+.clients img{
+    width: 250px;
+}
+
+/* end clients */
