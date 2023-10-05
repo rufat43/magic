@@ -61,7 +61,7 @@ header {
     background-position: center;
     height: 100vh;
     width: 100%;
-    /* box-shadow: inset 0px -25px 39px 20px rgba(27,26,23,1); */
+    box-shadow: inset 0px -25px 39px 20px rgba(0,0,0,1);
 }
 
 
@@ -293,7 +293,12 @@ header {
 }
 
 .container-contact{
-    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 200px;
 }
 
 .social{
@@ -312,5 +317,23 @@ header {
     background-color: #fafafa;
     border-radius: 30px;
 }
+
+.container-contact p{
+    color: var(--text-bgc-color);
+    font-family: var(--font-main);
+    font-size: 30px;
+}
+
+.container-contact a{
+    text-decoration: none;
+    color: var(--text-bgc-color);
+    font-family: var(--font-main);
+    font-size: 30px;
+}
+
+.contact-a a{
+    border-bottom: 1px solid var(--text-bgc-color);
+}
+
 
 /* end contact */
