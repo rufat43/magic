@@ -280,6 +280,18 @@ header {
     width: 250px;
 }
 
+.clietns-2{
+    border: 1px solid var(--text-bg-color);
+    border-radius: 50%;
+    background-color: rgba(159, 149, 141, 0.7);
+    padding: 1px;
+}
+
+.clietns-2 img{
+    width: 220px;
+    height: 220px;
+}
+
 /* end clients */
 /* start contact */
 
