@@ -68,15 +68,6 @@ header {
 
 
 
-.projects {
-    background-image: url('backgr/bg-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-}
-
 .photography {
     background-image: url('backgr/bg-1.jpg');
     background-repeat: no-repeat;
@@ -194,6 +185,130 @@ header {
 }
 
 /* end sertifica */
+/* start project */
+
+.projects {
+    background-image: url('backgr/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 80px;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 500px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-project-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-project-1 h1{
+    color: var(--text-bgc-color);
+    font-family: var(--font-main);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.card-project-1 img{
+    width: 500px;
+    border: 3px solid rgba(219, 166, 99, 0.8);
+}
+
+.card-project-2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    gap: 1rem;
+}
+
+.info-project-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.info-project-1 h3{
+    color: var(--text-bgc-color);
+    font-size: 24px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.info-project-1 ul li{
+    color: var(--text-bgc-color);
+    font-size: 20px;
+    margin-left: 40px;
+
+}
+
+.card-project-2 img{
+    width: 280px;
+    border: 3px solid rgba(219, 166, 99, 0.8);
+}
+
+
+/* end project */
+/* start photo */
+
+.photography ul {
+    position:absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    list-style:none;
+    width:955px;
+    height:450px;
+    border-radius:3px;
+    overflow:hidden;
+    box-shadow:1px 1px 3px 1px;
+}
+  
+  
+.photography li {
+    position:relative;
+    width:190px;
+    height:450px;
+    float:left;
+    border-left:1px solid white;
+    -webkit-transition:all 0.7s;
+    -moz-transition:all 0.7s;
+    transition:all 0.7s;
+    box-shadow:-2px 0 10px 2px;
+}
+  
+.photography ul li:first-child {
+    border:none;
+}
+  
+.photography img {
+    width: auto;
+    height:450px;
+}
+  
+.photography ul:hover li {
+    width:50px;  
+}
+  
+.photography ul li:hover {
+    width:750px;
+}  
+
+/* end photo */
+/* start dron */
+
+
+
+/* end dron */
+
 /* start services */
 
 .services {
@@ -227,6 +342,7 @@ header {
 
 .card-services-1 img{
     width: 500px;
+    border: 3px solid rgba(219, 166, 99, 0.8);
 }
 
 .card-services-2{
@@ -268,6 +384,7 @@ header {
 
 .card img{
     width: 280px;
+    border: 3px solid rgba(219, 166, 99, 0.8);
 }
 
 .button{
