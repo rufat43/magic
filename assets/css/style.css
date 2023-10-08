@@ -341,20 +341,20 @@ header {
 }
 
 .card-services-1 img{
-    width: 500px;
-    border: 3px solid rgba(219, 166, 99, 0.8);
+  width: 500px;
+  border: 3px solid rgba(219, 166, 99, 0.8);
 }
 
 .card-img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-services-2{
-    padding-left: 100px;
-    display: flex;
-    flex-direction: column;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -402,22 +402,41 @@ header {
 /* start services-2 */
 
 .services-2{
-    background-image: url('backgr/bg-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    padding-left: 80px;
-    padding-top: 150px;
+  background-image: url('backgr/bg-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  padding-left: 80px;
+  padding-top: 150px;
 }
 
 .container-services-2 {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.services-3{
+  background-image: url('backgr/bg-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  padding-left: 80px;
+  padding-top: 150px;
+}
+
+.container-services-3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 
@@ -425,7 +444,7 @@ header {
 /* start clients */
 
 .clients {
-    background-image: url('backgr/bg-1.jpg');
+    background-image: url('backgr/bg-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -463,7 +482,7 @@ header {
 /* start contact */
 
 .contact {
-    background-image: url('backgr/bg-2.jpg');
+    background-image: url('backgr/bg-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
