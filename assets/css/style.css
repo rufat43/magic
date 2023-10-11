@@ -234,14 +234,12 @@ header {
   color: var(--text-bgc-color);
   font-size: 20px;
   margin-left: 40px;
-
 }
 
 .card-project-2 img{
   width: 280px;
   border: 3px solid rgba(219, 166, 99, 0.8);
 }
-
 
 /* end project */
 /* start photo */
